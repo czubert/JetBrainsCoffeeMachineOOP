@@ -1,9 +1,10 @@
 class CoffeeMachine:
-    water = 400
-    milk = 540
-    beans = 120
-    cups = 9
-    money = 550
+    def __init__(self):
+        self.water = 400
+        self.milk = 540
+        self.beans = 120
+        self.cups = 9
+        self.money = 550
 
     def order(self):
         while True:
